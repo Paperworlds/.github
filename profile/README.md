@@ -1,8 +1,10 @@
 # Paperworlds
 
-We're building a text-based multiplayer RPG — currently in **private alpha** (a free-time passion project).
+Text-first tools for AI development with Claude Code. Everything is a TUI, everything runs in your terminal.
 
-Along the way we had to build internal tools to manage multi-agent AI development with Claude Code. These turned out to be useful on their own, so we're sharing them.
+The `text-` prefix is the philosophy: no GUIs, no web dashboards, no electron wrappers. If it doesn't work in a terminal, we don't ship it.
+
+Born from building a text-based multiplayer RPG — still in private alpha.
 
 ## The tools (explore in order)
 
