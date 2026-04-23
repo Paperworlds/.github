@@ -29,8 +29,8 @@ URL in, relevance verdict and summary out — lensed through your stored profile
 **07. [textserve](https://github.com/paperworlds/textserve)** `available` — Fleet manager for MCP servers.
 Start, stop, and monitor Docker-based and native MCP servers from a single CLI. Injects credentials from your password manager at runtime and auto-registers servers with Claude Code.
 
-**08. textmap** *(coming soon)* — Knowledge graph for your local MCP infrastructure.
-Maps servers, credentials, dependencies, and tags in one queryable graph.
+**08. textmap** *(coming soon)* — YAML-first knowledge graph with a Kuzu backend and MCP server.
+Agents query it for protocols, open initiatives, and intent→tool mappings. Context recovery without reading prose: the graph is the source of truth, the YAML is human-authored, and `textmap sync` keeps them in step.
 
 **09. textprompts** *(revisiting)* — Coordinate multi-agent work on single repos.
 Decompose features into ordered prompt files, run them as a DAG, track progress and cost.
