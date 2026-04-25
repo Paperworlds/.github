@@ -32,8 +32,8 @@ Start, stop, and monitor Docker-based and native MCP servers from a single CLI. 
 **08. [textmap](https://github.com/paperworlds/textmap)** `available` — YAML-first knowledge graph with a Kuzu backend and MCP server.
 Agents query it for protocols, open initiatives, and intent→tool mappings. Context recovery without reading prose: the graph is the source of truth, the YAML is human-authored, and `textmap sync` keeps them in step. Integrated with textworkspace.
 
-**09. textprompts** *(revisiting)* — Coordinate multi-agent work on single repos.
-Decompose features into ordered prompt files, run them as a DAG, track progress and cost.
+**09. [textprompts](https://github.com/paperworlds/textprompts)** `available` — Lightweight DAG runner for AI coding agents.
+Reads numbered prompt files with YAML frontmatter, resolves `depends_on` chains, runs eligible tasks via `claude -p`, surfaces live progress in a TUI. Decompose features into ordered prompts, track progress and cost.
 
 **10. textcombos** *(tbd)* — Community-shared workflow recipes for textworkspace.
 YAML files that chain tool actions into reusable combos — install from local files, gists, or repos.
